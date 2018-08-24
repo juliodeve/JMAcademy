@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".ACTIVITYS.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtIdCurso"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Id del curso" />
+
+        <Spinner
+            android:id="@+id/spCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/cursos"></Spinner>
+
+        <Spinner
+            android:id="@+id/spCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/categorias"></Spinner>
+
+        <Spinner
+            android:id="@+id/spDuracion"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/duraciones">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSeleccionar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:background="@color/backButton"
+            android:layout_marginBottom="10dp"
+            android:text="Seleccionar la imagen del curso" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:background="@color/transparente"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:background="@color/backButton"
+        android:id="@+id/btnCargar"
+        android:textColor="@color/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar curso" />
+
+</LinearLayout>

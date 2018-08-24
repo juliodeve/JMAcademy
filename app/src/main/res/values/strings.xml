@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">JMAcademy</string>
+
+    <string-array name="cursos">
+        <item>selecciona el curso</item>
+        <item>salsa</item>
+        <item>bachata</item>
+        <item>cumbia</item>
+        <item>ballet</item>
+        <item>merengue</item>
+        <item>contemporaneo</item>
+        <item>urbano</item>
+    </string-array>
+
+    <string-array name="categorias">
+        <item>Selecciona la categoria</item>
+        <item>Infantil</item>
+        <item>Adolescente</item>
+        <item>Adulto</item>
+    </string-array>
+
+    <string-array name="duraciones">
+        <item>Selecciona la duración</item>
+        <item>1 mes</item>
+        <item>2 meses</item>
+        <item>3 meses</item>
+    </string-array>
+
+</resources>
